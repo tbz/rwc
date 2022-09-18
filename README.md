@@ -8,6 +8,7 @@ Based on [react-web-component](https://github.com/LukasBombach/react-web-compone
 - Removed lifecycle methods
 - Removed event retargeting since that was fixed in React 17
 - Always render into a shadowRoot
+- No polyfills
 
 ## Usage
 
