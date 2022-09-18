@@ -1,0 +1,24 @@
+{
+  "name": "@tbz/rwc",
+  "version": "0.0.1",
+  "description": "Wrap React App in Custom Element",
+  "main": "index.js",
+  "files": [
+    "index.*"
+  ],
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.3"
+  }
+}
